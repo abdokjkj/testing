@@ -1,0 +1,432 @@
+
+body{
+
+margin: 0;
+
+}
+
+.header{
+
+width: 100%;
+height: 80px;
+background-color: black;
+
+
+}
+
+.header .logo{
+
+float: left;
+
+
+}
+
+.header .logo h3{
+
+color: white;
+text-transform: uppercase;
+padding-left: 50px;
+padding-top: 20px
+
+}
+
+.header .nav{
+
+float: right;
+
+}
+
+.header .nav ul li{
+
+list-style-type: none;
+float: left;
+text-transform: uppercase;
+padding: 30px;
+
+}
+
+.header .nav ul li a{
+
+color: #DDD;
+
+}
+
+.header .nav ul li a:hover{
+
+text-decoration: none;
+color: orange;
+
+} 
+
+.clear1{
+
+clear: both;
+
+}
+
+.about{
+
+width: 100%;
+height: 700px;
+background-image: url('../image/0656641ae2737ca.jpg');
+background-size: cover;
+position: relative;
+margin-top: -20px;
+
+}
+
+.about p{
+
+position: absolute;
+margin-top: 100px;
+font-size: 20px;
+color: black;
+
+}
+
+.about .b1{
+
+position: absolute;
+margin-top: 200px;
+margin-left: 630px;
+padding: 10px;
+text-transform: uppercase;
+background-color: white;
+color: black;
+
+}
+
+.about .b1:hover{
+
+background-color: black;
+color: white;
+transition: all 1s ease-in-out;
+outline: none;
+border: none;
+border-radius: 10px;
+
+}
+
+.about .one{
+
+position: absolute;
+margin-top: 530px;
+margin-left: 250px;
+
+}
+
+.about .one img , .about .two img , .about .three img , .test .four img , .test .five img , .test .six img{
+
+height: 120px;
+width: 250px;
+
+}
+
+.about .one p , .about .two p , .about .three p{
+
+color: black;
+background-color: white;
+margin-top: 0;
+height: 250px;
+
+}
+
+.about .two{
+
+position: absolute;
+margin-top: 530px;
+margin-left: 550px;
+
+}
+
+.about .three{
+
+position: absolute;
+margin-top: 530px;
+margin-left: 850px;
+
+}
+
+.test{
+
+width: 100%;
+height: 660px;
+background-color: black;
+
+}
+
+.one button , .two button , .three button , .test button {
+
+margin-left: 70px;
+margin-top: 10px;
+background-color: orange;
+padding: 5px;
+text-transform: uppercase;
+
+}
+
+.one button:hover , .two button:hover , .three button:hover , .test button:hover , .all button:hover{
+
+background-color: black;
+color: white;
+transition: all 1s ease-in-out;
+border-radius: 5px;
+
+}
+
+.test .four{
+
+position: absolute;
+margin-top: 280px;
+margin-left: 250px;
+
+}
+
+.test .five{
+
+margin-left: 550px;
+position: absolute;
+margin-top: 280px;
+
+}
+
+.test .six{
+
+position: absolute;
+margin-top: 280px;
+margin-left: 850px;
+
+}
+
+.test p{
+
+background-color: white;
+font-size: 20px;
+height: 250px;
+color: black;
+
+}
+
+.icon{
+
+background-color: black;
+height: 500px;
+width: 100%;
+
+}
+
+.icon h2,p{
+
+color: white;
+
+}
+
+.ic1{
+
+float: left;
+padding-left: 50px;
+padding-top: 100px;
+
+}
+
+.ic2{
+
+float: right;
+padding-top: 100px;
+padding-right: 10px
+
+}
+
+.clear2{
+
+clear: both;
+
+}
+
+.ic3{
+
+float: left;
+width: 580px;
+height: 1px;
+background-color: white;
+margin-left: 50px;
+margin-top: 30px;
+
+}
+
+.ic4{
+
+float: right;
+width: 580px;
+height: 1px;
+background-color: white;
+margin-right: 20px;
+margin-top: 30px;
+
+}
+
+.clear3{
+
+clear: both;
+
+}
+
+.ic5{
+
+float: left;
+padding-top: 30px;
+padding-left: 50px; 
+
+}
+
+.ic6{
+
+float: right;
+padding-right: 10px;
+padding-top: 30px;
+
+}
+
+.clear4{
+
+clear: both;
+
+}
+
+.section{
+
+width: 100%;
+height: 650px;
+background-color: #D84780;
+
+
+}
+
+.hp{
+
+color: white;
+text-transform: uppercase;
+float: left;
+
+}
+
+.hp h2{
+
+padding-left: 500px;
+padding-top: 60px;
+
+}
+
+.hp p{
+
+padding-left: 500px;
+padding-top: 50px;
+
+}
+
+.all{
+
+float: left;
+
+}
+
+.all *{
+
+display: block;
+
+
+}
+
+.all input[name='name']{
+
+margin-top: 250px;
+margin-left: -500px;
+width: 550px;
+border-radius: 10px;
+
+}
+
+.all input[name='email']{
+
+margin-top: 60px;
+margin-left: -500px;
+width: 550px;
+border-radius: 10px;
+
+}
+
+.all textarea{
+
+margin-left: -500px;
+margin-top: 40px;
+width: 550px;
+height: 150px;
+
+}
+
+.all button{
+
+margin-left: -300px;
+margin-top: 30px;
+padding: 10px;
+background-color: #D84780;
+color: white;
+border: 2px solid white;
+text-transform: uppercase;
+
+}
+
+.clear5{
+
+clear: both;
+
+}
+
+.footer{
+
+background-color: black;
+width: 100%;
+height: 250px;
+
+}
+
+.footer p{
+
+float: left;
+padding-left: 570px;
+color: white;
+font-size: 20px;
+padding-top: 50px;
+text-transform: uppercase;
+
+}
+
+.footer ul{
+
+float: left;
+padding-top: 120px;
+
+}
+
+.footer * {
+
+display: inline;
+
+}
+
+.footer ul{
+
+margin-left: -200px;
+
+}
+
+.footer ul li{
+
+
+margin: 5px;
+padding: 10px;
+
+}
+
+
+
