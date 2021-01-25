@@ -1,0 +1,59 @@
+
+.end{
+
+width: 60%;
+height: 400px;
+background-color: white;
+float: left;
+margin-left: 300px;
+margin-top: 260px;
+
+}
+
+.end .fl1{
+
+float: left;
+
+}
+
+.end .fl1 img{
+
+width: 300px;
+height: 250px;
+margin-top: 70px;
+margin-left: 120px;
+
+}
+
+.end .fl2{
+
+float: right;
+background-color: gray;
+width: 300px;
+height: 250px;
+margin-right: 89px;
+margin-top: 70px;
+
+}
+
+.end .fl2 *{
+
+margin-left: 90px;
+margin-top: 50px;
+font-size: 20px;
+
+}
+
+.end .fl2 button{
+
+padding: 10px
+
+}
+
+.end .fl2 button:hover{
+
+background-color: black;
+color: white;
+transition: all 1s ease-in-out;
+
+}
